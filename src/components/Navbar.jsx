@@ -66,7 +66,7 @@ const Navbar = () => {
                 className="cursor-pointer px-5 py-4 flex gap-4 items-center hover:bg-[#fafafa] dark:hover:bg-[#0E0F12] rounded transition-all duration-300"
               >
                 <div className="">{link.icon}</div>
-                <div className={`text-[14px] text-[#666666] dark:text-[#fff] font-poppins`}>
+                <div className={`text-[14px] text-[#1a1a1a] dark:text-[#fff] font-poppins`}>
                   {link.name}
                 </div>
               </a>

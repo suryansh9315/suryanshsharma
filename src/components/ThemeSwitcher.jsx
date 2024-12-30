@@ -18,13 +18,13 @@ export function ThemeSwitcher() {
 
   return (
     <div
-      className="flex items-center gap-4 text-[14px] text-[#666666] dark:text-[#fff] font-poppins px-5 py-2 lg:py-4 hover:bg-[#fafafa] dark:hover:bg-[#0E0F12] cursor-pointer"
+      className="flex items-center gap-4 text-[14px] text-[#1a1a1a] dark:text-[#fff] font-poppins px-5 py-2 lg:py-4 hover:bg-[#fafafa] dark:hover:bg-[#0E0F12] cursor-pointer"
       onClick={() => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
     >
       {theme === "dark" ? (
         <IoSunnyOutline size={20} color="white" />
       ) : (
-        <IoMdMoon size={20} color="black" />
+        <IoMdMoon size={20} color="#1a1a1a" />
       )}
       <div>{theme}</div>
     </div>

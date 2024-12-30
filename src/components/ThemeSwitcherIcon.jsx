@@ -24,7 +24,7 @@ export function ThemeSwitcherIcon() {
       {theme === "dark" ? (
         <IoSunnyOutline size={20} color="white" />
       ) : (
-        <IoMdMoon size={20} color="black" />
+        <IoMdMoon size={20} color="#1a1a1a" />
       )}
     </div>
   );

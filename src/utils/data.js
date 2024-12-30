@@ -65,15 +65,15 @@ export const NavLinks = [
   {
     name: "Resume",
     path: "https://drive.google.com/file/d/1iATQB_lAUQRZV-Q1h0BOFlmAc2m67aKD/view",
-    icon: <GoArrowUpRight size={20} className="text-[#666] dark:text-[#fff]" />,
+    icon: <GoArrowUpRight size={20} className="text-[#1a1a1a] dark:text-[#fff]" />,
     iconFilled: <GoArrowUpRight size={20} />,
   },
 ];
 
 export const Socials = [
   { name: "Linkedin", link: "https://www.linkedin.com/in/suryansh-sharma-776563226/", icon: <PiLinkedinLogoLight size={22} /> },
-  { name: "Instagram", link: "/", icon: <PiInstagramLogoLight size={22} /> },
-  { name: "Telegram", link: "/", icon: <PiTelegramLogoLight size={22} /> },
+  { name: "Instagram", link: "https://www.instagram.com/thesuryanshsharma/", icon: <PiInstagramLogoLight size={22} /> },
+  { name: "Telegram", link: "https://t.me/Ox287", icon: <PiTelegramLogoLight size={22} /> },
   { name: "Twitter", link: "https://twitter.com/Suryanshhsharma", icon: <PiTwitterLogoLight size={22} /> },
   { name: "Github", link: "https://github.com/suryansh9315", icon: <PiGithubLogoLight size={22} /> },
 ];
