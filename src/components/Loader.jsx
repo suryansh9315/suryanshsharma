@@ -72,7 +72,7 @@ const Loader = ({ children }) => {
                 transition={{ duration: 1 }}
                 exit={{ opacity: 0, transition: { duration: 0.5 } }}
                 onAnimationComplete={setLoadingFalse}
-                className="text-[24px] text-[#1a1a1a] font-poppins"
+                className="text-[24px] text-[#1a1a1a] dark:text-white font-poppins"
                 layoutId="loader_anim_1"
               >
                 Suryansh Sharma
