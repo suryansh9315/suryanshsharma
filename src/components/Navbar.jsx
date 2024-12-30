@@ -27,7 +27,7 @@ const Navbar = () => {
       variants={variants}
       animate={isActive ? "open" : "closed"}
       initial="closed"
-      className="fixed top-0 w-screen px-6 border-b overflow-hidden border-b-[#e6e6e6] dark:border-b-gray-800 bg-white dark:bg-[#070708]"
+      className="fixed top-0 w-screen z-50 px-6 border-b overflow-hidden border-b-[#e6e6e6] dark:border-b-gray-800 bg-white dark:bg-[#070708]"
     >
       <div className="flex justify-between w-full items-center py-6">
         <div className="flex flex-row gap-3 cursor-pointer">
