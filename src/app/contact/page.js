@@ -47,7 +47,7 @@ const Contact = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1.5 }}
-          className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] font-poppins leading-[40px] xl:leading-[50px]"
+          className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] dark:text-white font-poppins leading-[40px] xl:leading-[50px]"
         >
           Let's Connect!
         </motion.div>
@@ -59,28 +59,28 @@ const Contact = () => {
             transition={{ delay: 0.3, duration: 1.5 }}
             className="w-full md:w-[60%] flex flex-col gap-5"
           >
-            <div className="text-[18px] font-bold text-[#333] font-poppins">
+            <div className="text-[18px] font-bold text-[#333] dark:text-white font-poppins">
               Get In Touch
             </div>
             <div className="flex flex-col gap-4">
               <div className="flex gap-4 flex-col xs:flex-row">
                 <input
                   type="text"
-                  className="w-full xs:w-1/2 font-poppins placeholder:font-poppins px-6 py-3 bg-[#f3f3f3] outline-none"
+                  className="w-full xs:w-1/2 font-poppins placeholder:font-poppins px-6 py-3 bg-[#f3f3f3] dark:bg-[#0E0F12] outline-none"
                   placeholder="Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
                 <input
                   type="email"
-                  className="w-full xs:w-1/2 font-poppins placeholder:font-poppins px-6 py-3 bg-[#f3f3f3] outline-none"
+                  className="w-full xs:w-1/2 font-poppins placeholder:font-poppins px-6 py-3 bg-[#f3f3f3] dark:bg-[#0E0F12] outline-none"
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <textarea
-                className="w-full h-[200px] font-poppins placeholder:font-poppins px-6 py-3 bg-[#f3f3f3] outline-none"
+                className="w-full h-[200px] font-poppins placeholder:font-poppins px-6 py-3 bg-[#f3f3f3] dark:bg-[#0E0F12] outline-none"
                 placeholder="Write a message..."
                 value={text}
                 onChange={(e) => setText(e.target.value)}
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
             <div
               onClick={handleSubmit}
-              className="text-[16px] text-[#666] hover:bg-[black] hover:text-[white] transition-all duration-300 font-poppins border border-[#666] rounded-md px-8 py-[10px] w-fit text-center cursor-pointer"
+              className="text-[16px] text-[#666] hover:bg-[black] dark:text-gray-400 dark:hover:text-white hover:text-[white] transition-all duration-300 font-poppins border border-[#666] rounded-md px-8 py-[10px] w-fit text-center cursor-pointer"
             >
               <FlipText
                 duration={0.1}
@@ -108,10 +108,10 @@ const Contact = () => {
               transition={{ delay: 0.6, duration: 1.5 }}
               className="flex flex-col gap-5 w-full xs:w-1/2 md:w-fit"
             >
-              <div className="text-[18px] font-bold text-[#333] font-poppins">
+              <div className="text-[18px] font-bold text-[#333] dark:text-white font-poppins">
                 Contact
               </div>
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-3 text-[#666666] dark:text-gray-400">
                 <div className="font-poppins flex gap-3 items-center">
                   <HiOutlineMail size={22} />
                   <div>
@@ -133,7 +133,7 @@ const Contact = () => {
               transition={{ delay: 0.9, duration: 1.5 }}
               className="flex flex-col gap-5"
             >
-              <div className="text-[18px] font-bold text-[#333] font-poppins">
+              <div className="text-[18px] font-bold text-[#333] dark:text-white font-poppins">
                 Socials
               </div>
               <div className="flex flex-col gap-4">
@@ -142,7 +142,7 @@ const Contact = () => {
                     target="_blank"
                     href={social.link}
                     key={id}
-                    className="cursor-pointer flex items-center gap-3 font-light text-[#666666] font-poppins"
+                    className="cursor-pointer flex items-center gap-3 font-light text-[#666666] dark:text-gray-400 font-poppins"
                   >
                     {social.icon}
                     <div>{social.name}</div>

@@ -12,7 +12,7 @@ const Projects = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1.5 }}
-          className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] font-poppins leading-[40px] xl:leading-[50px]"
+          className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] dark:text-white font-poppins leading-[40px] xl:leading-[50px]"
         >
           Projects:
           <br />
@@ -47,7 +47,7 @@ const Projects = () => {
                     alt="Image"
                   />
                 </motion.div>
-                <div className="text-[18px] font-poppins font-light text-[#1a1a1a]">
+                <div className="text-[18px] font-poppins font-light text-[#1a1a1a] dark:text-gray-400">
                   {project.name}
                 </div>
               </motion.a>

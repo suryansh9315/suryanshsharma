@@ -42,7 +42,7 @@ const Loader = ({ children }) => {
       wrapper: wrapper,
       content: wrapper,
       duration: 2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      easing: (t) => Math.min(1.5, 1.5 - Math.pow(2, -10 * t)),
       direction: "vertical",
       gestureDirection: "vertical",
       smooth: true,
@@ -90,14 +90,14 @@ const Loader = ({ children }) => {
             className="flex flex-col md:flex-row h-screen overflow-hidden w-screen"
           >
             <Sidebar />
-            <SmoothScroll>
+            {/* <SmoothScroll> */}
               <div
                 ref={wrapperRef}
-                className="pt-[100px] md:pt-0 w-full overflow-y-auto"
+                className="pt-[100px] md:pt-0 w-full overflow-y-auto dark:bg-[#070708]"
               >
                 {children}
               </div>
-            </SmoothScroll>
+            {/* </SmoothScroll> */}
           </motion.div>
         )}
       </AnimatePresence>

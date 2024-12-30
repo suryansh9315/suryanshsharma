@@ -22,33 +22,33 @@ export const NavLinks = [
   {
     name: "Home",
     path: "/",
-    icon: <GoHome size={20} />,
-    iconFilled: <GoHomeFill size={20} />,
+    icon: <GoHome size={20} className="text-[#666] dark:text-[#666]"/>,
+    iconFilled: <GoHomeFill size={20} className="text-[#fff] dark:text-[#fff]"/>,
   },
   {
     name: "About",
     path: "/about",
-    icon: <RiUser3Line size={20} color="#666666" />,
-    iconFilled: <RiUser3Fill size={20} />,
+    icon: <RiUser3Line size={20} className="text-[#666] dark:text-[#666]" />,
+    iconFilled: <RiUser3Fill size={20} className="text-[#fff] dark:text-[#fff]"/>,
   },
 
   {
     name: "Experience",
     path: "/experience",
-    icon: <MdWorkOutline size={20} color="#666666" />,
-    iconFilled: <MdWork size={20} />,
+    icon: <MdWorkOutline size={20} className="text-[#666] dark:text-[#666]" />,
+    iconFilled: <MdWork size={20} className="text-[#fff] dark:text-[#fff]"/>,
   },
   {
     name: "Projects",
     path: "/projects",
-    icon: <IoIosList size={20} color="#666666" />,
-    iconFilled: <IoIosListBox size={20} />,
+    icon: <IoIosList size={20} className="text-[#666] dark:text-[#666]" />,
+    iconFilled: <IoIosListBox size={20} className="text-[#fff] dark:text-[#fff]"/>,
   },
   {
     name: "Stack",
     path: "/stack",
-    icon: <RiStackLine size={20} color="#666666" />,
-    iconFilled: <RiStackFill size={20} />,
+    icon: <RiStackLine size={20} className="text-[#666] dark:text-[#666]" />,
+    iconFilled: <RiStackFill size={20} className="text-[#fff] dark:text-[#fff]" />,
   },
   // {
   //   name: "Blogs",
@@ -59,13 +59,13 @@ export const NavLinks = [
   {
     name: "Contact",
     path: "/contact",
-    icon: <HiOutlineMail size={20} color="#666666" />,
-    iconFilled: <HiMail size={20} />,
+    icon: <HiOutlineMail size={20} className="text-[#666] dark:text-[#666]" />,
+    iconFilled: <HiMail size={20} className="text-[#fff] dark:text-[#fff]"/>,
   },
   {
     name: "Resume",
     path: "https://drive.google.com/file/d/1iATQB_lAUQRZV-Q1h0BOFlmAc2m67aKD/view",
-    icon: <GoArrowUpRight size={20} color="#666666" />,
+    icon: <GoArrowUpRight size={20} className="text-[#666] dark:text-[#fff]" />,
     iconFilled: <GoArrowUpRight size={20} />,
   },
 ];

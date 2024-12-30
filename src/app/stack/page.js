@@ -12,7 +12,7 @@ const Stack = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1.5 }}
-          className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] font-poppins leading-[40px] xl:leading-[50px]"
+          className="text-[36px] xl:text-[44px] py-10 font-bold text-[#1a1a1a] dark:text-white font-poppins leading-[40px] xl:leading-[50px]"
         >
           My Skill Stack:
           <br />
@@ -28,7 +28,7 @@ const Stack = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 1.5 }}
                 key={id}
-                className="flex flex-col gap-4 px-5 py-5 bg-[#fafafa] w-[100%] md:w-[45%] rounded-lg cursor-pointer"
+                className="flex flex-col gap-4 px-5 py-5 bg-[#fafafa] dark:bg-[#0E0F12] w-[100%] md:w-[45%] rounded-lg cursor-pointer"
               >
                 <div className="flex gap-4 items-center">
                   <div className="">
@@ -42,7 +42,7 @@ const Stack = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <div className="font-semibold font-poppins text-[#1a1a1a] text-[18px]">
+                    <div className="font-semibold font-poppins text-[#1a1a1a] dark:text-gray-200 text-[18px]">
                       {tool.name}
                     </div>
                     <div className="font-light font-poppins text-[#666] text-[14px]">
@@ -50,7 +50,7 @@ const Stack = () => {
                     </div>
                   </div>
                 </div>
-                <div className="font-poppins text-[14px] text-[#b3b3b3]">
+                <div className="font-poppins text-[14px] text-[#b3b3b3] dark:text-gray-400">
                   {tool.description}
                 </div>
               </motion.div>

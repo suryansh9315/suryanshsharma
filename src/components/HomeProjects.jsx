@@ -16,9 +16,9 @@ const HomeProjects = () => {
       animate={{ opacity: 1, y: 0 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3, duration: 1.5 }}
-      className="flex flex-col gap-10 border-b border-b-[#e6e6e6] py-10"
+      className="flex flex-col gap-10 border-b border-b-[#e6e6e6] dark:border-b-gray-800 py-10"
     >
-      <div className="text-[#1a1a1a] font-poppins text-[36px] font-bold">
+      <div className="text-[#1a1a1a] dark:text-white font-poppins text-[36px] font-bold">
         Recent Projects
       </div>
       <div className="flex gap-6 md:gap-3 flex-col md:flex-row">
@@ -43,7 +43,7 @@ const HomeProjects = () => {
                 alt="Image"
               />
             </motion.div>
-            <div className="text-[18px] font-poppins font-light text-[#1a1a1a]">
+            <div className="text-[18px] font-poppins font-light text-[#1a1a1a]  dark:text-gray-400">
               {project.name}
             </div>
           </a>
@@ -51,7 +51,7 @@ const HomeProjects = () => {
       </div>
       <Link
         href={"/projects"}
-        className="text-[16px] text-[#666] hover:bg-[black] hover:text-[white] transition-all duration-300 font-poppins border border-[#666] rounded-md px-8 py-[10px] w-fit text-center cursor-pointer"
+        className="text-[16px] text-[#666] hover:bg-[black] hover:text-[white] dark:text-gray-400 dark:hover:text-white transition-all duration-300 font-poppins border border-[#666] rounded-md px-8 py-[10px] w-fit text-center cursor-pointer"
       >
         <FlipText duration={0.1} stagger={0.015} classes={"h-[25px] w-[120px]"}>
           allProjects
