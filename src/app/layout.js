@@ -51,9 +51,9 @@ export const metadata = {
     siteName: 'Suryansh S.',
     images: [
       {
-        url: 'https://suryanshsharma.vercel.app/me3.jpeg',
-        width: 800,
-        height: 600,
+        url: 'https://suryanshsharma.vercel.app/me_cartoon.png',
+        width: 500,
+        height: 500,
       }
     ],
     locale: 'en_US',
