@@ -43,7 +43,28 @@ const suiss = localFont({
 
 export const metadata = {
   title: "Suryansh S.",
-  description: "Frontend Developer Portfolio",
+  description: "FullStack Developer Portfolio",
+  openGraph: {
+    title: 'Suryansh S.',
+    description: 'FullStack Developer Portfolio',
+    url: 'https://suryanshsharma.vercel.app/',
+    siteName: 'Suryansh S.',
+    images: [
+      {
+        url: 'https://suryanshsharma.vercel.app/me2.jpeg',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://suryanshsharma.vercel.app/me2.jpeg',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
