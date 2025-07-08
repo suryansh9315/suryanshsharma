@@ -338,9 +338,22 @@ export const Stack = [
 
 export const Experience = [
   {
-    company: "FixHealth",
-    start_date: "2024",
+    company: "Yosemite Crew",
+    start_date: "Feb 2025",
     end_date: "present",
+    designation: "Founding Engineer",
+    summary: [
+      "Built and maintained scalable CI/CD pipelines for a monorepo architecture using pnpm workspaces and Turborepo, optimizing development workflows across teams.",
+      "Integrated FHIR standards for medical APIs, enabling secure and interoperable healthcare data exchange.",
+      "Developed and maintained the documentation website, improving internal and external developer onboarding.",
+      "Led development of a developer portal using microfrontend architecture with single-spa, enhancing modularity and cross-team collaboration."
+    ],
+    image: "/images/LinkedIn_Header.png"
+  },
+  {
+    company: "FixHealth",
+    start_date: "Oct 2024",
+    end_date: "Jan 2025",
     designation: "FrontEnd Developer",
     summary: [
       "Improved and implemented interactive video features using 100ms API for seamless real-time video conferencing and communication between therapists and patients.",
@@ -351,8 +364,8 @@ export const Experience = [
   },
   {
     company: "ONEV",
-    start_date: "2023",
-    end_date: "2024",
+    start_date: "March 2024",
+    end_date: "Sept 2024",
     designation: "Software Developer Intern",
     summary: [
       "Implemented an OTP architecture for secure and efficient driver authentication during onboarding and login processes, reducing unauthorized access attempts by 30%.",
