@@ -64,7 +64,7 @@ export const NavLinks = [
   },
   {
     name: "Resume",
-    path: "https://drive.google.com/file/d/1iATQB_lAUQRZV-Q1h0BOFlmAc2m67aKD/view",
+    path: "https://drive.google.com/file/d/1bl7z6o1OAzouHVlQNJ1wEMO5_LMlbi-3/view?usp=sharing",
     icon: <GoArrowUpRight size={20} className="text-[#1a1a1a] dark:text-[#fff]" />,
     iconFilled: <GoArrowUpRight size={20} />,
   },
@@ -75,7 +75,7 @@ export const Socials = [
   { name: "Instagram", link: "https://www.instagram.com/thesuryanshsharma/", icon: <PiInstagramLogoLight size={22} /> },
   { name: "Telegram", link: "https://t.me/Ox287", icon: <PiTelegramLogoLight size={22} /> },
   { name: "Twitter", link: "https://twitter.com/Suryanshhsharma", icon: <PiTwitterLogoLight size={22} /> },
-  { name: "Github", link: "https://github.com/suryansh9315", icon: <PiGithubLogoLight size={22} /> },
+  { name: "Github", link: "https://github.com/suryansh-yc", icon: <PiGithubLogoLight size={22} /> },
 ];
 
 export const Projects = [
