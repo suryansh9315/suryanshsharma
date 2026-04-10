@@ -75,7 +75,7 @@ export const Socials = [
   { name: "Instagram", link: "https://www.instagram.com/thesuryanshsharma/", icon: <PiInstagramLogoLight size={22} /> },
   { name: "Telegram", link: "https://t.me/Ox287", icon: <PiTelegramLogoLight size={22} /> },
   { name: "Twitter", link: "https://twitter.com/Suryanshhsharma", icon: <PiTwitterLogoLight size={22} /> },
-  { name: "Github", link: "https://github.com/suryansh-yc", icon: <PiGithubLogoLight size={22} /> },
+  { name: "Github", link: "https://github.com/suryansh9315", icon: <PiGithubLogoLight size={22} /> },
 ];
 
 export const Projects = [
