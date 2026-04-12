@@ -80,6 +80,18 @@ export const Socials = [
 
 export const Projects = [
   {
+    name: "AI Chat Hub",
+    image: "/images/8.png",
+    link: "https://multi-chat-ai-beta.vercel.app/",
+    color: "#07DAC0",
+  },
+   {
+    name: "Booker",
+    image: "/images/7.png",
+    link: "https://booker-woad.vercel.app/",
+    color: "#07DAC0",
+  },
+  {
     name: "All Swap",
     image: "/images/1.png",
     link: "https://all-swap-flax.vercel.app",
