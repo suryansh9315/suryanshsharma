@@ -12,7 +12,7 @@ const DesktopSidebar = () => {
       <div className="">
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 items-center py-4 lg:py-8 border-b border-b-[#e6e6e6] dark:border-b-gray-800 cursor-pointer">
           <Image
-            src={{ src: "/me.jpeg", height: 68, width: 68 }}
+            src={{ src: "/new-me.png", height: 68, width: 68 }}
             alt="logo"
             unoptimized
             className="rounded-md"
