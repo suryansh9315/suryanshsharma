@@ -64,7 +64,7 @@ export const NavLinks = [
   },
   {
     name: "Resume",
-    path: "https://drive.google.com/file/d/1bl7z6o1OAzouHVlQNJ1wEMO5_LMlbi-3/view?usp=sharing",
+    path: "https://drive.google.com/file/d/15TPv_Q1hTis3uCmACOdq6TVprO7RVXT0/view",
     icon: <GoArrowUpRight size={20} className="text-[#1a1a1a] dark:text-[#fff]" />,
     iconFilled: <GoArrowUpRight size={20} />,
   },
